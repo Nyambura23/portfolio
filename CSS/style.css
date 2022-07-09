@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Roboto+Mono:wght@300&family=Ubuntu&display=swap');
+*{
+  margin: 0;
+  padding:0 ;
+  font-family: 'Ubuntu';
+}
+
+html
+
+/* Navbar */
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color :#1b3c4b;
+  position: fixed;
+  top:0;
+  left:0; right: 0;
+ 
+  
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 0px 0px 0px 0px;
+  color: whitesmoke;
+
+}
+
+.navbar ul li{
+  font-family: cursive;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+
+}
+
+.navbar ul li a{
+  color:white ;
+  padding: 5px;
+  text-decoration: none;
+
+}
+
+.navbar ul li a:hover{
+  background-color: white;
+  color: #1b3c4b;
+  border-radius: 10%;
+
+
+}
+
+/*Home Section*/
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  background-image:url(/Img/Background.avif);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  
+}
+
+#home h1{
+  color: white;
+  font-size: 50px;
+
+}
+
+#home img{
+  border-radius: 50%;
+}
+
+
+#home p{
+  color: white;
+  font-size: 25px;
+
+}
+#home .button1{
+  text-decoration: none;
+  color: white;
+  border: rgb(255, 185, 5) 1px solid;
+  background-color: rgb(255, 185, 5);
+  padding: 0px 0px;
+  border-radius: 10%;
+  font-size: 25px;
+
+}
+
+#home .button1:hover{
+  background-color: white;
+  color: darkorange;
+}
+
+/*About Section*/
+#about{
+  background-color:white;
+
+}
+#about h2{
+text-align: center;
+font-size: 70px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  justify-content: center;
+
+}
+
+
+/*Portfolio Section*/
+
+
+#portfolio{
+  background-color:#1b3c4b ;
+}
+#portfolio h3{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  }
+
+  .portfolio-container {
+    align-items: center;
+    text-align: center; 
+    display: flex;
+    color: white;
+  }
+
+  .hidden-content1, .hidden-content2, .hidden-content3, .hidden-content4{
+    display: none;
+    font-size: 25px;
+    color: white;
+   
+  }
+
+  .hidden-content1 h, .hidden-content2 h, .hidden-content3 h, .hidden-content4 h {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+    }
+
+    .content1, .content2,.content3,.content4{
+      text-align: center;
+      color: white;
+    }
+  
+    /*Portfolio Section*/
+
+    #contact h4{
+      text-align: center;
+      font-size: 50px;
+      color: white;
+    }
+
+    #contact h5{
+      text-align: center;
+      font-size: 40px;
+      color: black;
+    }
+    
+    #contact{
+    display: flex;
+    justify-content: center;
+    color: black;
+  
+
+}
+ .form{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  
+ }
+
+.input{
+  padding: 10px; 
+  margin: 10px; 
+  width: 100vh;
+  
+}
+
+#msg{
+  padding: 10px;
+  margin: 10px; 
+  width: 100vh;
+ 
+}
+#send{
+  text-decoration: none;
+  color: rgb(123, 57, 17) ;
+  border: white  1px solid;
+  background-color:white;
+  border-radius: 10%;
+  font-size: 25px;
+ 
+}
+
+#contact P {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  display: inline;
+
+}
+
+
+
+
